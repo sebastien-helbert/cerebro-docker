@@ -18,7 +18,7 @@ docker run -p 9000:9000 docker.io/shelbert/cerebro
 For using a specific version run:
 
 ```
-docker run -p 9000:9000 docker.io/shelbert/cerebro:0.8.3
+docker run -p 9000:9000 docker.io/shelbert/cerebro:0.9.4
 ```
 
 ### Configuration
