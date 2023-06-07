@@ -12,13 +12,13 @@ Images are periodically uploaded in [lmenezes/cerebro](https://hub.docker.com/r/
 For using latest cerebro execute:
 
 ```
-docker run -p 9000:9000 lmenezes/cerebro
+docker run -p 9000:9000 docker.io/shelbert/cerebro
 ```
 
 For using a specific version run:
 
 ```
-docker run -p 9000:9000 lmenezes/cerebro:0.8.3
+docker run -p 9000:9000 docker.io/shelbert/cerebro:0.8.3
 ```
 
 ### Configuration
@@ -27,8 +27,8 @@ You can configure a custom port for cerebro by using the `CEREBRO_PORT` environm
 
 **Example**
 
-docker run -e CEREBRO_PORT=8080 -p 8080:8080 lmenezes/cerebro
+docker run -e CEREBRO_PORT=8080 -p 8080:8080 docker.io/shelbert/cerebro
 
 To access an elasticsearch instance running on localhost:
 
-docker run -p 9000:9000 --network=host lmenezes/cerebro
+docker run -p 9000:9000 --network=host docker.io/shelbert/cerebro
